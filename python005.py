@@ -10,9 +10,11 @@ print("the subtraction is : " , subComplex(x,y))
 def subComplex(x,y):
     return x+y
 print("the sum is :", subComplex(x,y))
+# complex power
 def subComplex(x,y):
     return x**y
 print("the power is :", subComplex(x,y))
+# complex multiplication
 def subComplex(x,y):
     return x*y
 print("the multiplication is :", subComplex(x,y))

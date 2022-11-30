@@ -1,4 +1,4 @@
-print("\U0001F602")
-print("\U0001F601")
-print("\U0001F60C")
-print("\U0001F63D")
+name, age ="kriti","19"
+print("Hello"+ name + "your age is:" + age)
+x=y=t=r=f=g=23
+print(x+y+t+r+g+f)

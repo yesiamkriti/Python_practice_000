@@ -7,11 +7,11 @@ start = 0
 for i in range(0,number + 1):
     start += i
 print(start)
-"""list: lidt is a non homogeneous data structure that stores elements in single row and multiple row and coloums
+"""list: it is a non homogeneous data structure that stores elements in single row and multiple row and coloums
 representation []
 example : [1,2,3]
 it allow dublicate copy
-list() function
+list[] function
 mutable
 ordered
 

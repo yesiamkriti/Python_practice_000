@@ -16,6 +16,5 @@ elif A > 6:
 elif A < 6:
     F = (5 % B)+(B)
     print("the net SALARY : ", F)
-
-
-    
+else:
+    print("sorry! no bonus")

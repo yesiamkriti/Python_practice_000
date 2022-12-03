@@ -27,7 +27,7 @@ print(list1)
 #insert()-insert item at specified index
 #append()-insert item at the end of the list
 #extend()-it appends elements from one list to another list, it can be used to append different collection
-#remove()-revoes item from a specified index
+#remove()-remvoes item from a specified index
 #pop()-removes the element at the specified position.
 #clear()-clears all element
 #len()-find length of a list

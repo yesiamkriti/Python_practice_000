@@ -34,8 +34,31 @@ if "quick" not in Chilu:
     print("Yes")
 else:
     print("no")
-print('"classmate"')
-print('"classmate"')
-print('"classmate"')
-print('"classmate"')
-print("classmate")
+#string array
+a = "I LOVE MY INDIA"
+print(a[0])
+#looping through string
+for x in "love u":
+    print(x)
+#string length
+print(len(a))
+#check string
+print("LOVE" in a)
+#use of if in checking string
+if "LOVE"in a:
+ print("yes,LOVE is present")
+#checking  not in
+print("you" not in a)
+#checking if not 
+print("no,you are not present.")
+#python slicing
+print(a[0:5])
+#slice from start
+print(a[:10])
+#slice from end
+print(a[2:])
+# negetive indexing
+print(a[-16:0])
+# use of for loop
+for i in a:
+    print(i)

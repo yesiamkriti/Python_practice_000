@@ -28,4 +28,3 @@ flowers = ["sunflower","rose","lily","lotus"]
 for k in fruits:
     for l in flowers:
         print(k,l)
-for k in range      

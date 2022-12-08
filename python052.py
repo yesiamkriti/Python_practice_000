@@ -1,3 +1,4 @@
+#set
 # strore multiple  values in single variable
 # unordered
 # unchangeable
@@ -17,8 +18,3 @@ print(myset1.symmetric_difference(myset4))
 print(myset1.issuperset(myset4))
 myset.symmetric_difference_update(myset5)
 print(myset)
-mydictionary = {
-    "name":"Nikhil",
-    "age":"22"
-}
-print(mydictionary)

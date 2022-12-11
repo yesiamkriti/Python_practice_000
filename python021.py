@@ -4,13 +4,9 @@ For example, 0, 1, 1, 2, 3, 5, 8, 13, 21.
 The next number in this series above is 13+21=34. Expected output:
 Fibonacci sequence: 0 1 1 2 3 5 8 13 21 34'''
 a=int(input("Enter a number:"))
-n1,n2= 0,1
-sum = 0
-if a<=0:
-    print('enter grater number:')
-else:
-    for i in range(0,a):
-        print(sum,end="")
+n1,n2,sum= 0,1,0
+for i in range(0,a):
+        print(sum,end=" ")
         n1= n2
         n2= sum
         sum= n1 + n2

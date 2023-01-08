@@ -7,7 +7,7 @@ print(tuple(filter(is_even,numbers)))
 print(tuple(filter(lambda b : b%2==0,range(1,11))))
 # iterate means to print one by one each successful condition
 # example of iterate
-
-print(i for i in range(1,11) if i%2==0)
+for i in range(1,11):
+    print(i if i%2==0 else "")
 # map and filter can iterate only once 
 
